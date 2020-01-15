@@ -52,8 +52,9 @@ DOMContentLoaded is a web standard and jQuery is not a web standard.
 ></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => { $B.countByN('selector-id',
-  targetMoney, N, interval); }
+  document.addEventListener('DOMContentLoaded', () => {
+    $B.countByN('selector-id', targetMoney, N, interval);
+  });
 </script>
 ```
 
