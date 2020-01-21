@@ -16,12 +16,12 @@ In development, we bundled with webpack.
 
 ## Local
 
-<a href="https://unpkg.com/bill-counter-js@0.0.5/dist/bill-counter.min.js" download>download</a>
+<a href="https://unpkg.com/bill-counter-js@0.0.6/dist/bill-counter.min.js" download>download</a>
 
 ## CDN
 
 ```
-<script src="https://unpkg.com/bill-counter-js@0.0.5/dist/bill-counter.min.js" integrity="sha384-6A0YkxFyDgTmoOetzKpRPLH+9chxoapSu2otnjrrLQk4Wip4TL8RIZiYzIzaZq9S" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bill-counter-js@0.0.6/dist/bill-counter.min.js"></script>
 ```
 
 ## NPM
@@ -45,11 +45,7 @@ DOMContentLoaded is a web standard and jQuery is not a web standard.
 ## Browser
 
 ```html
-<script
-  src="https://unpkg.com/bill-counter-js@0.0.5/dist/bill-counter.min.js"
-  integrity="sha384-6A0YkxFyDgTmoOetzKpRPLH+9chxoapSu2otnjrrLQk4Wip4TL8RIZiYzIzaZq9S"
-  crossorigin="anonymous"
-></script>
+<script src="https://unpkg.com/bill-counter-js@0.0.6/dist/bill-counter.min.js"></script>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
@@ -63,7 +59,7 @@ see [example source](https://github.com/JeHwanYoo/bill-counter-js/blob/master/ex
 ## ESM
 
 ```javascript
-import { $B } from 'https://unpkg.com/bill-counter-js@0.0.5/dist/bill-counter.esm.js';
+import { $B } from 'https://unpkg.com/bill-counter-js@0.0.6/dist/bill-counter.esm.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   $B.countByN('selector-id', targetMoney, N, interval);

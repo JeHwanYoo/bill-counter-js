@@ -1,6 +1,6 @@
 {
   "name": "bill-counter-js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The bill counter effect is expressed in JavaScript.",
   "main": "dist/bill-counter.common.min.js",
   "repository": "https://github.com/JeHwanYoo/bill-counter-js.git",
